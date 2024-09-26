@@ -7,10 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      // Brand Colours
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+        vaistumPaleOrange: "#FFEFE7",
+        vaistumSkyLight: "#E8F0FB",
+        vaistumPalePink: "#FDEBF9",
+        vaistumOrange: "#FF5151",
+        vaistumBlue: "#3786F1",
+        vaistumPink: "#EE61CF",
+        vaistumDarkBlue: "#161E54",
+      }, 
     },
   },
   plugins: [],
