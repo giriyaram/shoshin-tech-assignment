@@ -13,8 +13,8 @@ const DashboardLayout = ({children}) => {
         href="/"
         className="flex items-center justify-center lg:justify-start gap-2"
       >
-        <Image src="/logo.png" alt="logo" width={150} height={40} />
-        
+        <Image src="/logo.png" alt="logo" width={150} height={40} className='hidden lg:flex' />
+        <Image src="/logo-small.png" alt="logo" width={30} height={30} className='lg:hidden pt-4' />
       </Link>
       <Menu />
     </div>
