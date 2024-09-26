@@ -35,7 +35,7 @@ const Navbar = () => {
             height={36}
             className="rounded-full"
           />
-          <span className="hidden md:flex text-base leading-3 font-medium">Admirra John</span>
+          <span className="hidden md:flex text-base leading-3 font-medium">Giri Yaram</span>
 
           <Image src="/arrow-down.svg" alt="" width={14} height={14} />
         </div>
